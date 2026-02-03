@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valora la teva experiència</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f4f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 40px 20px;
+            border-radius: 16px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+        h1 {
+            color: #111;
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+        p.subtitle {
+            color: #666;
+            font-size: 16px;
+            margin-top: 0;
+            margin-bottom: 32px;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 16px;
+            margin-bottom: 12px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: transform 0.1s;
+            box-sizing: border-box; /* Assegura que el padding no trenqui l'amplada */
+        }
+        .btn:active {
+            transform: scale(0.98);
+        }
+        .btn span {
+            display: block;
+            font-size: 14px;
+            font-weight: 400;
+            margin-top: 4px;
+            opacity: 0.8;
+        }
+        
+        /* BOTÓ SÍ (Bo - Google Maps) */
+        .btn-yes {
+            background-color: #22c55e; /* Verd Èxit */
+            color: white;
+            box-shadow: 0 4px 6px rgba(34, 197, 94, 0.2);
+        }
+
+        /* BOTÓ NO (Dolent - Tally) */
+        .btn-no {
+            background-color: #f3f4f6;
+            color: #374151;
+            border: 1px solid #d1d5db;
+        }
+        
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #9ca3af;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Com ha anat l'experiència?</h1>
+        <p class="subtitle">¿Cómo ha ido la experiencia?</p>
+
+        <a href="https://g.page/r/CT_bYKGbd2dIEBM/review" class="btn btn-yes">
+            Molt bé!
+            <span>¡Muy bien!</span>
+        </a>
+
+        <a href="https://tally.so/r/68N2V5" class="btn btn-no">
+            Podria millorar
+            <span>Podría mejorar</span>
+        </a>
+        
+        <div class="footer">
+            Powered by Invelis Innovation
+        </div>
+    </div>
+
+</body>
+</html>
